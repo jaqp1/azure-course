@@ -41,7 +41,7 @@ variable "location" {
   EOT
   nullable    = false
   type        = string
-  default     = "switzerlandnorth"
+  default     = "norwayeast"
 }
 
 variable "sops-encryption-key_name" {
