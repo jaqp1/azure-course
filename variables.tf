@@ -19,6 +19,7 @@ variable "common_resource_groups" {
     common = { enabled = true, labs = "2-11" } # zasoby wspólne, trwałe
 
     # TODO: Dodaj pozostałe grupy zasobów (krok 1)
+    # zmiana pod commit
   }
   validation {
     condition     = try(var.common_resource_groups["common"].enabled, false)
